@@ -5,5 +5,18 @@
 		<title></title>
 	</head>
 	<body>
+		int i，H；
+	H = prompt("请输入金字塔高度：");
+    for (var i = 0; i<H ; i++){
+    for (var k = 0;k < H-i ; k++){
+        document.write("-")
+    }
+
+    for (var j = 0; j<2*(i+1)-1 ; j++){
+        document.write("*")
+    }
+    document.write("<br>")
+}
+alert("金字塔构建完毕！")
 	</body>
 </html>
